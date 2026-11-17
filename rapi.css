@@ -1,0 +1,15 @@
+h1, p {
+    text-align: center; font-family: cursive; color: aliceblue;
+}
+table {
+    margin: auto; width: 75%; font-family: cursive; background-color: aliceblue; 
+}
+th, td {
+    text-align: center; font-family: cursive; 
+}
+thead {
+   background-color: rgb(20, 204, 250);
+}
+body {
+    background-color: lightskyblue; 
+}

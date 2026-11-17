@@ -1,0 +1,163 @@
+
+/* Mengatur tampilan seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Judul utama */
+h1 {
+    text-align: center;
+    color: rgb(20, 204, 250);
+    margin-bottom: 10px;
+}
+
+/* Logo */
+img {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+/* Judul formulir */
+h2 {
+    text-align: center;
+    color: rgb(20, 204, 250);
+}
+
+/* Alamat dan kontak */
+p {
+    text-align: center;
+    margin: 5px;
+}
+
+/* Garis */
+hr {
+    border: none;
+    border-top: 2px solid rgb(20, 204, 250);
+    margin: 20px 0;
+}
+
+/* Bagian utama */
+main {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Formulir */
+form {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Fieldset */
+fieldset {
+    border: 2px solid rgb(20, 204, 250);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+/* Judul fieldset */
+legend {
+    font-weight: bold;
+    color: rgb(20, 204, 250);
+    padding: 0 10px;
+}
+
+/* Label */
+label {
+    font-weight: bold;
+}
+
+/* Input, select, dan textarea */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Textarea */
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+/* Efek saat input dipilih */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color:rgb(20, 204, 250);
+    box-shadow: 0 0 5px rgba(0, 100, 0, 0.3);
+}
+
+/* Keterangan kecil */
+small {
+    color: #666;
+}
+
+/* Checkbox */
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+/* Tombol Kirim */
+button {
+    display: block;
+    width: 150px;
+    margin: 15px auto 0;
+    padding: 12px;
+    background-color: rgb(20, 204, 250)Z;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Efek tombol */
+button:hover {
+    background-color:rgb(20, 204, 250);
+}
+
+/* Tampilan HP */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
+

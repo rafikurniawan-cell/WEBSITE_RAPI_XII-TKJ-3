@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 2</title>
+    <link rel="stylesheet" href="latihan2.css">
+    <script src="latihan2.js"></script>
+</head>
+<body>
+    <h1>SMK YADIKA 13</h1>
+    <img src="logo yadika.png" alt="LOGO SMK YADIKA 13" width="100">
+    <h2>Formulir Pendaftaran Siswa Baru SMK YADIKA 13</h2>
+    <p>Jalan Raya Villa Indah I, Ds. JejalenJaya, Tambun Utara, Kab.Bekasi</p>
+    <p>Telepon ( 0898816524218 ) | Email: rapiganteng919@gmail.com</p>
+    <hr>
+    <main>
+        <article>
+            <form id="formBiodata" action="#" method="post"></form>
+            <section>
+                <fieldset>
+                    <legend>Registrasi Peserta Didik</legend>
+                    <label for="jp">Jenis Pendaftaran:</label>
+                    <br>
+                    <select id="jp" name="jp" required>
+                    <option value="">--Pilih Pendaftaran--</option>
+                    <option>Siswa Baru</option>
+                    <option>Siswa Pindahan</option>
+                    </select>
+                    <br> <br>
+                    <label for="Jurusan">Jurusan:</label>
+                    <br>
+                    <select id="Jurusan" name="Jurusan" required>
+                    <br> <br>
+                        <option value="">--Pilih Jurusan--</option>
+                        <option value="">TKJ</option>
+                        <option value="">TKR</option>
+                        <option value="">MPLB</option>
+                        <option value="">AKL</option>
+                     </select>
+                     <br> <br>
+                    <label for="Asal-Sekolah">Asal Sekolah</label>
+                    <br>
+                    <input type="text" id="Asal-Sekolah" name="Asal-Sekolah" placeholder="Masukan Asal Sekolah" required>
+                    <br>
+                    <small>Isi Dengan Nama Sekolah</small>
+                </fieldset>
+                <fieldset>
+                      <legend>Biodata Diri</legend>
+                      <label for="Nama Lengkap">Nama Lengkap</label>
+                      <br>
+                      <input type="text" id="Nama Lengkap" required>
+                      <br>
+                      <br>
+                      <label for="Tempat Lahir">Tempat Lahir</label>
+                      <br>
+                      <input type="text" id="Tempat Lahir" required>
+                      <br>
+                      <br>
+                      <label for="Tanggal Lahir">Tanggal Lahir</label>
+                      <br>
+                      <input type="date" id="Tanggal Lahir" required>
+                      <br>
+                      <br>
+                      <label for="Email">Email</label>
+                      <br>
+                      <input type="text" id="Email" required>
+                      <br>
+                      <br>
+                      <label for="Jenis Kelamin">Jenis Kelamin:</label>
+                      <br>
+                      <select id="jk" name="jk" required>
+                        <option value="">--Pilih--</option>
+                        <option value="">Laki-laki</option>
+                        <option value="">Perempuan</option>
+                      </select>
+                      <br>
+                      <br>
+                      <label for="Agama">Agama</label>
+                      <br>
+                      <select id="Agama" name="Agama" required>
+                        <option value="">--Pilih--</option>
+                        <option value="">Islam</option>
+                        <option value="">Kristen Katolik</option>
+                        <option value="">Kristen Protestan</option>
+                        <option value="">Hindu</option>
+                        <option value="">Buddha</option>
+                        <option value="">Mersing Band</option>     
+                      </select>
+                      <br> 
+                      <br>
+                      <label for="Alamat Lengkap">Alamat Lengkap</label>
+                      <br>
+                      <textarea id="Alamat Lengkap"></textarea>
+                </fieldset>
+            </section>
+            <input type="checkbox">Beri tanda centang jika anda telah mengisi dengan benar</input>
+            <br>
+            <button type="submit">Kirim</button>
+        </article>
+    </main>
+</body>
+</html>

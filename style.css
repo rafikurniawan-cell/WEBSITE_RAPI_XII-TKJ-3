@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    background: rgb(221, 239, 253);
+}
+.container{
+    width: 700px;
+    margin: 70px auto;
+    background: white;
+    padding: 70px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(68, 67, 67);
+}
+h2{
+    text-align: center;
+    color: rgb(5, 101, 245);
+    margin-bottom: 30px;
+}
+label{
+    display: block;
+    margin-top: 30px;
+    font-weight: bold;
+}
+input, textarea, select{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 3px solid white;
+    border-radius: 7px;
+}
+textarea{
+    height: 70px;
+    resize: none;
+}
+button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 7px;
+    background: rgb(5, 101, 245);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+button:hover{
+    background: rgb(5, 101, 245);
+}
